@@ -1,3 +1,5 @@
+'use strict'
+
 const utterance = new SpeechSynthesisUtterance()
 
 utterance.lang = "pt-BR"
@@ -16,12 +18,3 @@ function stop() {
 function setText(event) {
     utterance.text = event.target.innerText
 }
-
-//     window.onload=function(){                
-//         window.location="https://news.google.com.br/"; 
-// }
-
-// function updateDiv()
-// { 
-//     $( "#here" ).load(window.location.href + " #here" );
-// }
