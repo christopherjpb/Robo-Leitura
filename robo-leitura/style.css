@@ -3,6 +3,8 @@
 div {
     float: center;
     width: auto;
-    height: 300px;
-    text-align: center;
+    min-height: 150px;
+    max-height: 300px;
+    text-align: left;
+    text-justify: initial;
 }

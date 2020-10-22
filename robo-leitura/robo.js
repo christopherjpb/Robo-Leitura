@@ -1,7 +1,7 @@
 const utterance = new SpeechSynthesisUtterance()
 
 utterance.lang = "pt-BR"
-utterance.rate = 1.5
+utterance.rate = 2.0
 
 speechSynthesis.speak(utterance)
 
@@ -21,7 +21,7 @@ function setText(event) {
 //         window.location="https://news.google.com.br/"; 
 // }
 
-function updateDiv()
-{ 
-    $( "#here" ).load(window.location.href + " #here" );
-}
+// function updateDiv()
+// { 
+//     $( "#here" ).load(window.location.href + " #here" );
+// }
